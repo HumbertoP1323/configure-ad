@@ -23,33 +23,33 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 <h2>High-Level Deployment and Configuration Steps</h2>
 
-- Step 1
-- Step 2
-- Step 3
-- Step 4
+- create  virtual machines in Azure
+- install active directory 
+- Establish both an administrative and a regular user account within Active Directory.
+
 
 <h2>Deployment and Configuration Steps</h2>
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<p><img src="https://i.imgur.com/3kOUMl1.png" width="80%" alt="Create Virtual Machines"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+ It's necessary to generate a pair of virtual machines. The initial virtual machine will utilize Windows 10, while the second will operate under the Windows Server environment.
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/CzW7ZoM.png" height="80%" width="80%" alt="Install Active Directory"/>
+</p>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Utilize your remote desktop connection to the virtual machine to access the server manager and install Active Directory, configuring necessary settings for a functional environment. Upon completion, you'll have a fully operational Active Directory instance.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/CgXnzt2.png" height="80%" width="80%" alt=" Create Admin and Normal User Account in AD"/>
+</p>
+<p>
+Create a user account in the admin folder and adjust the properties to set it as an admin. Repeat this process for the user account in the employee folder.
 </p>
 <br />
